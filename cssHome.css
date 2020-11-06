@@ -1,0 +1,113 @@
+*{margin: 0; padding:0;}
+
+body{
+	background: #f2f3ee;
+}
+
+header{
+	width: 100%;
+	overflow: hidden;
+	background: #576a24;
+	margin-bottom: 20px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	
+}
+
+.wrapper{
+	width: 90%;
+	max-width:1000px;
+	margin:auto; 
+	overflow: hidden;
+}
+
+header .logo{
+	color: #f5f5e0;
+	font-size: 40px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	letter-spacing: 4px;
+	line-height: 100px;
+	float: left;
+}
+
+header nav{
+float: right;
+line-height: 100px;
+
+}
+
+header nav a {
+	display: inline-block;
+	color:white;
+	text-decoration: none;
+	padding: 0px 20px;
+	line-height:normal;
+	padding: 0.5rem 1rem;
+	transition: all 0.20s linear;
+}
+
+header nav a:hover{
+	background: #6a8118;
+	border-radius: 15px;
+}
+
+header div a{
+	display: inline-block;
+	color:white;
+	text-decoration: none;
+	padding: 0px 20px;
+	line-height:normal;
+	padding: 0.5rem 1rem;
+	transition: all 0.20s linear;	
+}
+
+.StaticHeader{
+	position: fixed;
+	height: 100px;
+}
+
+.StaticHeader .logo{
+	line-height: 100px;
+	font-size: 40px;
+}
+
+.StaticHeader nav{
+	line-height: 100px;	
+}
+
+.contenido p{
+	margin-bottom: 1em;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+
+.contenido h1{
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+@media screen and (max-width: 100px){
+	header .logo,
+	header nav{
+		width: 100%;
+		text-align: center;
+		line-height: 100px;
+	}
+
+	.StaticHeader{
+		height: auto;
+	}
+
+	.StaticHeader .logo, .StaticHeader nav{
+		line-height: 100px;
+	}
+}
+
+section img{
+	display:block;
+	margin:auto;
+	 height: auto;
+	width: 520px; height: 220px;
+	border-radius: 15px;
+}
+

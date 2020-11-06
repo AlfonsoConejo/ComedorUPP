@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Comedor | Registro</title>
+	<link rel="stylesheet" type="text/css" href="cssRegistroUsuario.css">
+</head>
+<body>
+	<header>
+		<div class="wrapper">
+			<div class="logo">
+				<a href="index.html">COMEDOR</a>
+			</div>
+
+			<nav>
+					<a href="InicioUsuario.html">Iniciar Sesión</a>
+					<a href="RegistroUsuario.html">Registrarse</a>
+			</nav>
+		</div>
+
+	</header>
+
+	<div class="caja-registro">
+		<h1>Regístrate</h1>
+		<form name="registro" method="post" action="registro.php">
+			<!-- Nombre-->
+			<input type="text" name="nombre" placeholder="Nombre" required>
+			<!-- Apellido-->
+			<input type="text" name="apellido" placeholder="Apellido" required>
+			<!-- Correo Electrónico-->
+			<input type="text" name="mail" placeholder="Correo electrónico" required>
+			<!-- Contraseña-->
+			<input type="password" name="contrasena" placeholder="Contraseña" required="">
+			
+			<input type="submit" name="btnRegistro" value="Registrarse">
+
+			<p><a href="InicioUsuario.html">Ya tengo una cuenta</a></p>
+		</form>
+	</div>
+	<?php
+		include("registro.php");
+	?>
+</body>
+
+</html>

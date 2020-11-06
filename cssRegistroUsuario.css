@@ -1,0 +1,125 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family:sans-serif;
+	background: url(niñoFinal.jpg) no-repeat center top;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+header{
+	width: 100%;
+	overflow: hidden;
+	background: #576a24;
+	margin-bottom: 20px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	
+}
+
+.wrapper{
+	width: 90%;
+	max-width:1000px;
+	margin:auto; 
+	overflow: hidden;
+}
+
+header .logo{
+	color: #f5f5e0;
+	font-size: 40px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	letter-spacing: 4px;
+	line-height: 100px;
+	float: left;
+}
+
+header nav{
+float: right;
+line-height: 100px;
+}
+
+header nav a {
+	display: inline-block;
+	color:white;
+	text-decoration: none;
+	padding: 0px 20px;
+	line-height:normal;
+	padding: 0.5rem 1rem;
+	transition: all 0.20s linear;
+}
+
+header nav a:hover{
+	background: #6a8118;
+	border-radius: 15px;
+}
+
+header div a{
+	display: inline-block;
+	color:white;
+	text-decoration: none;
+	padding: 0px 20px;
+	line-height:normal;
+	padding: 0.5rem 1rem;
+	transition: all 0.20s linear;	
+}
+
+.caja-registro {
+	width: 370px;
+	height: 450px;
+	background: #fcfcfc;
+	color: #3d4041;
+	top: 50%;
+	left: 50%;
+	position:absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 40px;
+	border-radius: 12px;
+}
+
+.caja-registro h1{
+	margin:0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 24px;
+}
+.caja-registro input{
+ 	width: 100%;
+ 	margin-bottom: 20px;
+}
+
+.caja-registro input[type="text"],
+.caja-registro input[type="password"]{
+ border: none;
+ border-bottom: 1px solid #516e41;
+ background: transparent;
+ outline: none;
+ height: 40px;
+ color:#292c27;
+ font-size: 16px;
+}
+
+.caja-registro input[type="submit"]{
+	border:none;
+	border:;
+	outline: none;
+	height: 40px;
+	background:#80a160;
+	font-size: 20px;
+	color: #ffffff;
+	border-radius: 12px;
+}
+
+.caja-registro a{
+	text-decoration: none;
+	font-size: 17px;
+	color: darkgray;
+}
+
+.caja-registro a:hover {
+	color: #bebcbc;
+}
+
+.caja-registro p{
+	text-align: center;
+}
